@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,29 +15,25 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="奇分享首页" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZoY-dT-IX4">
-                                <rect key="frame" x="20" y="120" width="335" height="447"/>
+                                <rect key="frame" x="20" y="651.66666666666663" width="335" height="26.333333333333371"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="QiShareLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="xnn-OO-KrN">
-                                <rect key="frame" x="87.5" y="70" width="200" height="200"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="ACZ-VL-gzu"/>
-                                    <constraint firstAttribute="width" constant="200" id="pGz-jd-Cfn"/>
-                                </constraints>
+                                <rect key="frame" x="-12.666666666666657" y="94" width="400.33333333333326" height="400"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="xnn-OO-KrN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="AUV-r5-N5J"/>
+                            <constraint firstItem="xnn-OO-KrN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1co-FA-9xT"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZoY-dT-IX4" secondAttribute="trailing" constant="20" id="F6H-4e-6kg"/>
-                            <constraint firstItem="ZoY-dT-IX4" firstAttribute="centerX" secondItem="xnn-OO-KrN" secondAttribute="centerX" id="TkA-UD-h40"/>
-                            <constraint firstItem="ZoY-dT-IX4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="cPF-DP-8Hf"/>
+                            <constraint firstItem="ZoY-dT-IX4" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-100" id="cPF-DP-8Hf"/>
+                            <constraint firstItem="xnn-OO-KrN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="lEk-7h-XWJ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ZoY-dT-IX4" secondAttribute="bottom" constant="100" id="oS5-I6-Mvw"/>
                             <constraint firstItem="ZoY-dT-IX4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="tHf-Ui-IDO"/>
                         </constraints>
