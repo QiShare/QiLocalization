@@ -26,10 +26,12 @@
 		EE611697219855DD00C780EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE611698219855DD00C780EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE61169F219859AD00C780EA /* QiShareLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QiShareLogo.png; sourceTree = "<group>"; };
-		EE6116A121985B7600C780EA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EE6116A221985B7600C780EA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EE6116A321985B7F00C780EA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/Main.storyboard"; sourceTree = "<group>"; };
-		EE6116A421985B7F00C780EA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		EE6116A52198602000C780EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE6116AA219860A400C780EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		EE6116AF219862B400C780EA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE6116B02198634E00C780EA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		EE6116B3219863A400C780EA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		EE6116B4219863D400C780EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 				"zh-Hans",
 			);
 			mainGroup = EE61167D219855DC00C780EA;
@@ -159,8 +162,9 @@
 		EE61168F219855DC00C780EA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EE6116A121985B7600C780EA /* en */,
-				EE6116A321985B7F00C780EA /* zh-Hans */,
+				EE6116A52198602000C780EA /* Base */,
+				EE6116AA219860A400C780EA /* en */,
+				EE6116B02198634E00C780EA /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -168,8 +172,9 @@
 		EE611694219855DD00C780EA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EE6116A221985B7600C780EA /* en */,
-				EE6116A421985B7F00C780EA /* zh-Hans */,
+				EE6116AF219862B400C780EA /* en */,
+				EE6116B3219863A400C780EA /* zh-Hans */,
+				EE6116B4219863D400C780EA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
