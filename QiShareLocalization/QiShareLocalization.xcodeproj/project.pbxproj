@@ -13,7 +13,11 @@
 		EE611693219855DD00C780EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE611692219855DD00C780EA /* Assets.xcassets */; };
 		EE611696219855DD00C780EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE611694219855DD00C780EA /* LaunchScreen.storyboard */; };
 		EE611699219855DD00C780EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE611698219855DD00C780EA /* main.m */; };
-		EE6116A0219859AD00C780EA /* QiShareLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = EE61169F219859AD00C780EA /* QiShareLogo.png */; };
+		EE6116F421986AA800C780EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE6116F621986AA800C780EA /* InfoPlist.strings */; };
+		EE6116FB21986B2D00C780EA /* QiPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6116FA21986B2D00C780EA /* QiPushViewController.m */; };
+		EEFC4979219A5C0A00BB6EC8 /* QiShareLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = EEFC497B219A5C0A00BB6EC8 /* QiShareLogo.png */; };
+		EEFC4985219A70F200BB6EC8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEFC4987219A70F200BB6EC8 /* Localizable.strings */; };
+		EEFC498B219A83D300BB6EC8 /* supplementaryLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEFC498D219A83D300BB6EC8 /* supplementaryLocalizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,13 +29,23 @@
 		EE611692219855DD00C780EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE611697219855DD00C780EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE611698219855DD00C780EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EE61169F219859AD00C780EA /* QiShareLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QiShareLogo.png; sourceTree = "<group>"; };
 		EE6116A52198602000C780EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE6116AA219860A400C780EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		EE6116AF219862B400C780EA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EE6116B02198634E00C780EA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
-		EE6116B3219863A400C780EA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 		EE6116B4219863D400C780EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE6116F821986ABD00C780EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE6116F921986B2D00C780EA /* QiPushViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiPushViewController.h; sourceTree = "<group>"; };
+		EE6116FA21986B2D00C780EA /* QiPushViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiPushViewController.m; sourceTree = "<group>"; };
+		EEFC497D219A5C2E00BB6EC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/QiShareLogo.png; sourceTree = "<group>"; };
+		EEFC497E219A5C3300BB6EC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/QiShareLogo.png; sourceTree = "<group>"; };
+		EEFC497F219A60D500BB6EC8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		EEFC4980219A60D500BB6EC8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zh-Hans"; path = "zh-Hans.lproj/QiShareLogo.png"; sourceTree = "<group>"; };
+		EEFC4981219A60D500BB6EC8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		EEFC4982219A60D500BB6EC8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		EEFC4986219A70F200BB6EC8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		EEFC4988219A70F600BB6EC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EEFC498C219A83D300BB6EC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/supplementaryLocalizable.strings; sourceTree = "<group>"; };
+		EEFC498E219A83D400BB6EC8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/supplementaryLocalizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,12 +82,17 @@
 				EE61168A219855DC00C780EA /* AppDelegate.m */,
 				EE61168C219855DC00C780EA /* ViewController.h */,
 				EE61168D219855DC00C780EA /* ViewController.m */,
+				EE6116F921986B2D00C780EA /* QiPushViewController.h */,
+				EE6116FA21986B2D00C780EA /* QiPushViewController.m */,
 				EE61168F219855DC00C780EA /* Main.storyboard */,
-				EE61169F219859AD00C780EA /* QiShareLogo.png */,
+				EEFC497B219A5C0A00BB6EC8 /* QiShareLogo.png */,
 				EE611692219855DD00C780EA /* Assets.xcassets */,
 				EE611694219855DD00C780EA /* LaunchScreen.storyboard */,
 				EE611697219855DD00C780EA /* Info.plist */,
 				EE611698219855DD00C780EA /* main.m */,
+				EE6116F621986AA800C780EA /* InfoPlist.strings */,
+				EEFC4987219A70F200BB6EC8 /* Localizable.strings */,
+				EEFC498D219A83D300BB6EC8 /* supplementaryLocalizable.strings */,
 			);
 			path = QiShareLocalization;
 			sourceTree = "<group>";
@@ -136,10 +155,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE6116A0219859AD00C780EA /* QiShareLogo.png in Resources */,
+				EEFC4979219A5C0A00BB6EC8 /* QiShareLogo.png in Resources */,
+				EEFC4985219A70F200BB6EC8 /* Localizable.strings in Resources */,
+				EEFC498B219A83D300BB6EC8 /* supplementaryLocalizable.strings in Resources */,
 				EE611696219855DD00C780EA /* LaunchScreen.storyboard in Resources */,
 				EE611693219855DD00C780EA /* Assets.xcassets in Resources */,
 				EE611691219855DC00C780EA /* Main.storyboard in Resources */,
+				EE6116F421986AA800C780EA /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +174,7 @@
 			files = (
 				EE61168E219855DC00C780EA /* ViewController.m in Sources */,
 				EE611699219855DD00C780EA /* main.m in Sources */,
+				EE6116FB21986B2D00C780EA /* QiPushViewController.m in Sources */,
 				EE61168B219855DC00C780EA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -164,7 +187,7 @@
 			children = (
 				EE6116A52198602000C780EA /* Base */,
 				EE6116AA219860A400C780EA /* en */,
-				EE6116B02198634E00C780EA /* zh-Hans */,
+				EEFC497F219A60D500BB6EC8 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -173,10 +196,47 @@
 			isa = PBXVariantGroup;
 			children = (
 				EE6116AF219862B400C780EA /* en */,
-				EE6116B3219863A400C780EA /* zh-Hans */,
 				EE6116B4219863D400C780EA /* Base */,
+				EEFC4981219A60D500BB6EC8 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EE6116F621986AA800C780EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE6116F821986ABD00C780EA /* en */,
+				EEFC4982219A60D500BB6EC8 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EEFC497B219A5C0A00BB6EC8 /* QiShareLogo.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEFC497D219A5C2E00BB6EC8 /* Base */,
+				EEFC497E219A5C3300BB6EC8 /* en */,
+				EEFC4980219A60D500BB6EC8 /* zh-Hans */,
+			);
+			name = QiShareLogo.png;
+			sourceTree = "<group>";
+		};
+		EEFC4987219A70F200BB6EC8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEFC4986219A70F200BB6EC8 /* zh-Hans */,
+				EEFC4988219A70F600BB6EC8 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		EEFC498D219A83D300BB6EC8 /* supplementaryLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEFC498C219A83D300BB6EC8 /* en */,
+				EEFC498E219A83D400BB6EC8 /* zh-Hans */,
+			);
+			name = supplementaryLocalizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

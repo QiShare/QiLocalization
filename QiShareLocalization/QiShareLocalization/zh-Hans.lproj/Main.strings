@@ -1,3 +1,9 @@
 
+/* Class = "UIBarButtonItem"; title = "跳转"; ObjectID = "YeR-IE-tTQ"; */
+"YeR-IE-tTQ.title" = "跳转";
+
 /* Class = "UILabel"; text = "QiShareLocalization Home"; ObjectID = "ZoY-dT-IX4"; */
-"ZoY-dT-IX4.text" = "奇分享本地化首页";
+"ZoY-dT-IX4.text" = "奇分享首页";
+
+/* Class = "UINavigationItem"; title = "首页"; ObjectID = "gYG-kg-UFf"; */
+"gYG-kg-UFf.title" = "首页";
